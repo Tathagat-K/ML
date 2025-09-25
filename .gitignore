@@ -20,7 +20,7 @@ env/
 # *.nbconvert.ipynb
 
 # ---- Data ----
-data/raw/
+#data/raw/
 # data/interim/
 # data/processed/
 # !data/README.md   # keep placeholder readme
@@ -35,8 +35,8 @@ reports/supervised/
 reports/unsupervised/
 *.png
 *.pdf
-*.csv
-*.json
+#*.csv
+#*.json
 *.html
 
 # ---- Logs & Debug ----
