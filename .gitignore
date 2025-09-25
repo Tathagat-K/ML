@@ -1,0 +1,67 @@
+# ---- Python basics ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# ---- Virtual environments ----
+.venv/
+venv/
+ENV/
+env/
+*.env
+.env.*
+
+# # ---- Jupyter notebooks ----
+# .ipynb_checkpoints/
+# .notebook/
+# *.nbconvert.ipynb
+
+# ---- Data ----
+data/raw/
+# data/interim/
+# data/processed/
+# !data/README.md   # keep placeholder readme
+
+# ---- Models ----
+# models/
+# !models/README.md  # keep placeholder readme
+
+# ---- Reports & Outputs ----
+reports/figures/
+reports/supervised/
+reports/unsupervised/
+*.png
+*.pdf
+*.csv
+*.json
+*.html
+
+# ---- Logs & Debug ----
+logs/
+*.log
+*.out
+*.err
+
+# ---- OS / IDE cruft ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Packaging ----
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# ---- Cache ----
+.cache/
+.mypy_cache/
+pytest_cache/
+.pytest_cache/
+# joblib/
